@@ -1,6 +1,7 @@
 import AboutImage from '../assets/masala.jpg';
 import '../styles/About.css';
-const About = () => {
+
+const About: React.FC = () => {
     return(
         <div className="about">
             <div className="aboutTop" style={{backgroundImage: `url(${AboutImage})`}}>

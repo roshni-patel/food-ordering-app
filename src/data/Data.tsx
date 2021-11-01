@@ -9,31 +9,31 @@ export const data = [
     {
         name: "Chole Bhature",
         image: Chole, 
-        price: 250
+        price: 8
     },
     {
         name: "Masala Dosa",
         image: Dosa, 
-        price: 250
+        price: 10
     },
     {
         name: "Butter Paneer",
         image: Paneer, 
-        price: 350
+        price: 6
     },
     {
         name: "Idli",
         image: Idli, 
-        price: 250
+        price: 3
     },
     {
         name: "Gujarati Thali",
         image: Gujarati, 
-        price: 400
+        price: 10
     },
     {
         name: "Rajasthani Thali",
         image: Rajasthani, 
-        price: 400
+        price: 10
     },
 ]

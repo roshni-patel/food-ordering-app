@@ -1,7 +1,7 @@
 import '../styles/Contact.css';
 import ContactImage from '../assets/fooda.jpeg';
 
-const Contact = () => {
+const Contact: React.FC = () => {
     return(
         <div className="contact">
             <div className="leftSide" style={{backgroundImage: `url(${ContactImage})`}}>

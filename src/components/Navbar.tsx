@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
     return(
         <div className="navbar">
             <div className="leftSide" id={openLinks ? "open" : "close"}>
-                <img src={logo} alt="logo" />
+                <Link to="/"><img src={logo} alt="logo" /></Link>
                 <div className="hiddenLinks">
                     <Link to="/">Home</Link>
                     <Link to="/menu">Menu</Link>

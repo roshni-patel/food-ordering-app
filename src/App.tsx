@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="App">
       <Router>
         <Navbar />
         <Switch>

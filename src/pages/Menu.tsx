@@ -1,7 +1,8 @@
 import { data } from '../data/Data';
 import MenuItem from '../components/MenuItem';
 import '../styles/Menu.css';
-const Menu = () => {
+
+const Menu: React.FC = () => {
     return(
         <div className="menu">
             <div className="menuTitle">

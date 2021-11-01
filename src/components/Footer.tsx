@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import '../styles/Footer.css';
 
-const Footer = () => {
+const Footer: React.FC = () => {
     return(
         <div className="footer">
             <div className="socialMedia">
@@ -12,7 +12,7 @@ const Footer = () => {
                 <TwitterIcon />
                 <FacebookIcon />
                 <LinkedInIcon />
-                <p>&copy; 2021 Indianfood.com</p>
+                <p>&copy; 2021 indianfood.com</p>
             </div>
         </div>
     );
